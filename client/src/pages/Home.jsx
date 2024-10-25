@@ -3,7 +3,6 @@ import React from 'react';
 const Home = () => {
     return (
         <div className="bg-gray-50">
-            {/* Hero Section */}
             <section className="bg-blue-600 text-white text-center py-20">
                 <h2 className="text-4xl font-bold">Welcome to My Bank</h2>
                 <p className="mt-4 text-lg">Your trusted partner in finance.</p>
@@ -11,8 +10,6 @@ const Home = () => {
                     Explore Our Services
                 </a>
             </section>
-
-            {/* Services Section */}
             <section id="services" className="py-20 max-w-7xl mx-auto px-6">
                 <h2 className="text-3xl font-bold text-center">Our Services</h2>
                 <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
