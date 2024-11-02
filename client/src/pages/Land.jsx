@@ -2,8 +2,7 @@ import React from 'react';
 
 const Land = () => {
     return (
-        <div className="bg-gray-50">
-
+        <div className="bg-gray-50 ">
             <section className="hero bg-cover bg-center h-screen flex items-center justify-center text-center text-white" style={{ backgroundImage: 'url("https://source.unsplash.com/1600x900/?bank")' }}>
                 <div className="bg-black bg-opacity-50 p-8 rounded-xl">
                     <h2 className="text-4xl font-bold mb-4">Empowering Your Financial Future</h2>
