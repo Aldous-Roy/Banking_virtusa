@@ -1,5 +1,4 @@
 import React from 'react';
-
 const AccountPage = () => {
     return (
         <div className="bg-gray-50">
