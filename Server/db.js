@@ -56,3 +56,8 @@ app.post('/login', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
+
+//kindly replace the values in the code with your own database credentials and jwt secret key.
+//the DB canbe replaced with noSQL or any other database of your choice.
+//The JWT secret key can be generated using a tool like https://www.grc.com/passwords.htm/. 
+//The server can be hosted on any cloud platform like Heroku or AWS.
