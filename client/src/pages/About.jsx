@@ -21,7 +21,7 @@ const About = () => {
                 transition={{ duration: 1, delay: 0.2 }}
             >
                 Welcome to our bank! We are committed to providing exceptional banking services to our valued customers.
-                Established in [Year], our bank has always been focused on delivering financial solutions tailored to meet 
+                Established in 2024, our bank has always been focused on delivering financial solutions tailored to meet 
                 the unique needs of individuals and businesses alike.
             </motion.p>
 
@@ -60,7 +60,7 @@ const About = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 1 }}
             >
-                Our vision is to be the leading bank in [Your Location], recognized for our commitment to customer 
+                Our vision is to be the leading bank in Chennai, recognized for our commitment to customer 
                 satisfaction, financial literacy, and community engagement. We aim to leverage technology and our 
                 expertise to create a seamless banking experience for our customers.
             </motion.p>
