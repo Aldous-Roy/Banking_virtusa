@@ -19,13 +19,12 @@ app.use(cors({
 }));
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/login");
+mongoose.connect(process.env.MONGODB_URI);
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', function() {
     console.log('MongoDB database connection established successfully');
 });
-
 // Create a new user
 app.post('/create-user', async (req, res) => {
     const { name, email, password } = req.body;
