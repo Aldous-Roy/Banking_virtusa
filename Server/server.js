@@ -5,6 +5,8 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import User from "./db.js"
 
+
+
 dotenv.config();
 
 const app = express();
