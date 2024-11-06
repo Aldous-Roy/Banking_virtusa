@@ -29,6 +29,16 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+          <li>
+            <Link to="/signin" className="text-white hover:text-gray-400">
+              Sign In
+            </Link>
+          </li>
+          <li>
+            <Link to="/signup" className="text-white hover:text-gray-400">
+              Sign Up
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

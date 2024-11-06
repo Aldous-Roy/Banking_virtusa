@@ -7,6 +7,8 @@ import Loan from './pages/Loan';
 import Account from './pages/Account';
 import About from './pages/About';
 import Land from './pages/Land';
+import SignUp from './pages/SignUp';
+import SignIn from './pages/Signin';
 
 const App = () => {
   // Animation settings for page transitions
@@ -27,6 +29,22 @@ const App = () => {
             element={
               <motion.div {...pageTransition}>
                 <Land />
+              </motion.div>
+            } 
+          />
+          <Route 
+            path="/signup" 
+            element={
+              <motion.div {...pageTransition}>
+                <SignUp />
+              </motion.div>
+            } 
+          />
+          <Route 
+            path="/signin" 
+            element={
+              <motion.div {...pageTransition}>
+                <SignIn />
               </motion.div>
             } 
           />
